@@ -1,0 +1,25 @@
+{
+  "name": "mythus-theme",
+  "displayName": "Mythus Theme",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/mythus-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mythus Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mythus Theme-color-theme.json"
+      }
+    ]
+  }
+}
